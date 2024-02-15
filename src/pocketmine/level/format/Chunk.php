@@ -427,7 +427,7 @@ class Chunk{
                 $heightMap = $this->getHeightMap($x, $z);
                 $y = ($this->getHighestSubChunkIndex() + 1) << 4;
                 for(; $y >= $heightMap; --$y){
-                    $this->setBlockSkyLight($x, $y, $z, 15);
+                    $this->setBlockSkyLight($x, $y, $z, 250);
                 }
                 $light = 15;
                 for(; $y > 0; --$y){
