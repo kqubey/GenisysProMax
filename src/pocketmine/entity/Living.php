@@ -132,6 +132,15 @@ abstract class Living extends Entity implements Damageable {
 
 		if($source instanceof EntityDamageByEntityEvent){
 			$e = $source->getDamager();
+
+			if($source->getEntity() instanceof Entity) {
+				if($e instanceof Player) {
+					$e->sendMessage("я ща тебя ебальник снесу уёбище");
+					$source->setCancelled();
+					return;
+				}
+			}
+			
 			if($source instanceof EntityDamageByChildEntityEvent){
 				$e = $source->getChild();
 			}
@@ -171,7 +180,7 @@ abstract class Living extends Entity implements Damageable {
 
 		$f = 1 / $f;
 
-		$base = 999;
+		//$base = 999;
 
 		$motion = new Vector3($this->motionX, $this->motionY, $this->motionZ);
 
