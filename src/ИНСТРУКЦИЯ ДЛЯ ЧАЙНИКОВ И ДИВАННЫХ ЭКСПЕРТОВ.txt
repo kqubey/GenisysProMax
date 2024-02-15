@@ -1,0 +1,27 @@
+GENISYS PRO MAX ИСПОЛЬЗОВАНИЕ
+
+
+к
+р
+ч
+
+
+Сначала выучи основы php, а нет
+мы же диванные эксперты нах нада
+
+Крч если вы из таких
+
+SRINUX:
+
+git clone https://github.com/stevedevvv/GenisysProMax
+дальше бин качаете
+дальш
+chmod 777 ./start.sh
+chmod +x ./bin/php7/bin/php
+./start.sh
+
+SRINDOWS:
+прост качайте бин и откройте start.cmd
+
+AnusOS:
+Пока ещё не придумали
