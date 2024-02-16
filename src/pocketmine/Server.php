@@ -1540,7 +1540,6 @@ class Server{
 
 		$this->getLogger()->info($string);
 
-		sleep(5);
 	}
 
 	public function loadAdvancedConfig(){
